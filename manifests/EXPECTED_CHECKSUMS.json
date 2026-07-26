@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "profile": "OBL-NOV08",
+  "artifacts": [
+    {
+      "profile": "OBL-NOV08",
+      "path": "artifacts/nov08/bitcoin-nov08.rar",
+      "url": "https://cdn.nakamotoinstitute.org/code/bitcoin-nov08.rar",
+      "expected": {
+        "md5": "1de1b45c425c1cebb2b3280baffe7f25",
+        "sha1": "43808c09e6ea1432111027133712d9d18d4a8537"
+      },
+      "authority": "Satoshi Nakamoto Institute; values stated as calculated by SNI"
+    },
+    {
+      "profile": "OBL-NOV08",
+      "path": "artifacts/nov08/bitcoin-nov08.tgz",
+      "url": "https://cdn.nakamotoinstitute.org/code/bitcoin-nov08.tgz",
+      "expected": {
+        "md5": "232aaa88ca9874583adcfdbf226c2be7",
+        "sha1": "bfb12761d38513239aabb777532be4c056c172a6"
+      },
+      "authority": "Satoshi Nakamoto Institute; SNI-compressed companion"
+    }
+  ]
+}

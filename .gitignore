@@ -1,0 +1,21 @@
+# Canonical archive bytes are acquired and verified locally, not committed.
+/artifacts/**/*.rar
+/artifacts/**/*.tgz
+/artifacts/**/*.tar.gz
+/artifacts/**/*.zip
+/artifacts/**/*.part
+
+# Extracted original trees remain local until licensing/provenance policy is finalized.
+/extracted/
+
+# Redundant local bootstrap archive (scaffold is now materialized in-tree)
+/original-bitcoin-laboratory-bootstrap.zip
+
+# Generated manifests and test outputs
+/manifests/LOCAL_SHA256SUMS
+/reports/
+/build/
+*.log
+__pycache__/
+.pytest_cache/
+.DS_Store

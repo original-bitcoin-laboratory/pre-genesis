@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "root": "extracted",
+  "file_count": 5,
+  "files": [
+    {
+      "path": "main.cpp",
+      "size": 66174,
+      "sha256": "b15744d2478999fd3fd646f505a72e28752a9a0a9fb87e5d9dd3e379250dd498"
+    },
+    {
+      "path": "main.h",
+      "size": 29219,
+      "sha256": "47983339faeef9af50ad1b77bfaf649ac3b320506cb15bb7ad2f9824ec678816"
+    },
+    {
+      "path": "node.cpp",
+      "size": 28112,
+      "sha256": "f2f3ec5440b6832fe4a23b8e8898d336e77af54b17d384c738e0cbe68050cf62"
+    },
+    {
+      "path": "node.h",
+      "size": 18491,
+      "sha256": "ce5102021cb0f9ad63a154d8fb86e07c117762f2bd5b550f52fe47e833335649"
+    },
+    {
+      "path": "readme.txt",
+      "size": 451,
+      "sha256": "b248c1b8e1eb8d6a69f2f43d2f8c46a856749d40e3049d8dea890d5f23077285"
+    }
+  ]
+}
