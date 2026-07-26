@@ -19,6 +19,26 @@ python scripts/verify-artifacts.py    # hash-check against manifests/EXPECTED_CH
 Archives land in `artifacts/nov08/` (gitignored) and are never edited. Verified
 values: MD5/SHA-1 per the Satoshi Nakamoto Institute catalogue.
 
+## What the November source shows
+
+Read directly from the hash‑verified pre‑release (`inventory/`, and the cross‑edition
+[`../common/conformance/NOV08_JAN09_DIFF.md`](../common/conformance/NOV08_JAN09_DIFF.md)):
+
+- **A different monetary constitution.** `COIN` = 1e6, `CENT` = 1e4 — **no "satoshi"**
+  (the 1e8 unit is *genesis*‑born); a **100‑coin** subsidy halving every 100k blocks, a
+  15‑minute target, a fixed `1*CENT` fee, and an **exact‑equality** coinbase rule.
+- **A different proof‑of‑work.** `nBits` is the required **leading‑zero‑bit count**
+  (`MINPROOFOFWORK = 20`, *"ridiculously easy for testing"*) with a primitive ±1‑bit
+  retarget — *not* v0.1.0's compact target + proportional retarget.
+- **A 5‑file partial witness** — the ledger + networking main loop only; Script, keys,
+  db, and the marketplace all first appear in January.
+
+November's constitution is **executed** as a live counterfactual network, **NOV08‑X**
+([`../genesis/derivatives/nov08x/`](../genesis/derivatives/nov08x/)), under strict per‑line
+provenance ([`../common/nov08x/DESIGN_LEDGER.md`](../common/nov08x/DESIGN_LEDGER.md)). This
+is **not** recovered runnable Bitcoin — the surviving package cannot build standalone;
+NOV08‑X is a provenance‑controlled *completion*, never presented as recovered code.
+
 ## Layout
 
 ```text
