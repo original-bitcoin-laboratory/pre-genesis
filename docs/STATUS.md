@@ -53,4 +53,5 @@ files plus a runnable `bitcoin.exe`.)
 - [x] NOV08 → JAN09 structural diff → `../../common/conformance/NOV08_JAN09_DIFF.md`.
 - [x] Monetary & timing constants extracted (`COIN`=1e6, subsidy 100 coins,
   100k-block halving, 15-min target) — in `inventory/SOURCE_INVENTORY.md`.
-- [ ] Line-numbered function catalog for `main.*` / `node.*`.
+- [x] Line-numbered function catalog → `inventory/FUNCTIONS.md` (`main.cpp` /
+  `node.cpp`; surfaced the "timechain" term, `CountMoney`, and the absent `CTxDB`).
