@@ -51,4 +51,6 @@ files plus a runnable `bitcoin.exe`.)
   market / ui modules are absent, and `CScript` / `OP_CHECKSIG` /
   `OP_CODESEPARATOR` are *used but never defined* in the preserved files.
 - [x] NOV08 → JAN09 structural diff → `../../common/conformance/NOV08_JAN09_DIFF.md`.
+- [x] Monetary & timing constants extracted (`COIN`=1e6, subsidy 100 coins,
+  100k-block halving, 15-min target) — in `inventory/SOURCE_INVENTORY.md`.
 - [ ] Line-numbered function catalog for `main.*` / `node.*`.

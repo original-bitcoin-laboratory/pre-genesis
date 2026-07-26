@@ -37,6 +37,25 @@ is an early *architectural witness* of the ledger + networking layer, **not a
 complete, standalone-buildable Bitcoin**. This matches the profile's stated
 caveat and is the cleanest available evidence for it.
 
+## Monetary & timing (NOV08-SOURCE)
+
+The ledger core is present even though Script is not, so the pre-release's
+monetary constitution is readable and differs from January:
+
+| Parameter | value | anchor |
+|---|---|---|
+| base unit `COIN` | 1,000,000 (1e6) | `main.h:34` |
+| `CENT` | 10,000 | `main.h:35` |
+| block subsidy | 100 coins (`10000 * CENT`) | `main.cpp:654` |
+| halving | every 100,000 blocks (`for i=100000..; nSubsidy /= 2`) | `main.cpp:655` |
+| target spacing | 15 min (`15 * 60`) | `main.cpp:663` |
+| retarget timespan | 30 days (`30*24*60*60`) | `main.cpp:662` |
+| fixed tx fee | `1 * CENT` | `main.h:36` |
+| coinbase value rule | must **equal** subsidy+fees (`!=` rejects) | `main.cpp:739` |
+
+The 1e8 base unit (the "satoshi"), 50-coin subsidy, 210k-block halving, and 10-min
+target are all January changes — see `../common/conformance/NOV08_JAN09_DIFF.md`.
+
 ## Relationship to January
 
 The nov08 → jan09 structural diff (file renames, class additions, and the
