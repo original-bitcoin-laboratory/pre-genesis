@@ -7,7 +7,7 @@
 - [x] Whitepaper captured under `provenance/`.
 - [x] Canonical nov08 archives fetched (Nakamoto Institute CDN) and verified.
 - [x] `.tgz` source tree extracted read-only + per-file manifest generated.
-- [ ] `.rar` tree extracted and diffed against the `.tgz` tree (needs `unrar`/`7z`).
+- [x] `.rar` tree extracted (Windows bsdtar) and diffed against the `.tgz` tree.
 
 ### Verified archives (2026-07-26)
 
@@ -20,6 +20,11 @@ Whitepaper matches `manifests/PROVENANCE_SHA256SUMS`. Verified bytes live under
 `artifacts/nov08/` (gitignored, never edited). Per-file hashes of the extracted
 tree are recorded in `manifests/SOURCE_MANIFEST.json` (the source bytes themselves
 stay local under `extracted/`).
+
+The `.rar` and `.tgz` source trees are **byte-identical**: all 5 files match by
+SHA-256 — independent confirmation that both canonical archives carry the same
+source. (`bitcoin-nov08.rar` is a non-solid RAR, readable directly by the Windows
+built-in `bsdtar`/libarchive.)
 
 ## First finding — source inventory
 
