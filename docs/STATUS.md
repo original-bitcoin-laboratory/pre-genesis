@@ -44,7 +44,11 @@ architectural witness — core validation + networking only — and on its face 
 **not** a complete standalone release. (Contrast: the JAN09 edition ships 21 source
 files plus a runnable `bitcoin.exe`.)
 
-## Next
+## Release 1 — source inventory (started)
 
-`v0.1.0-source-inventory`: line-numbered class/function enumeration and a formal
-NOV08 → JAN09 structural diff.
+- [x] Full-tree file/class map → `inventory/SOURCE_INVENTORY.md`.
+- [x] Verified the pre-release is a **partial snapshot**: the Script / key / db /
+  market / ui modules are absent, and `CScript` / `OP_CHECKSIG` /
+  `OP_CODESEPARATOR` are *used but never defined* in the preserved files.
+- [x] NOV08 → JAN09 structural diff → `../../common/conformance/NOV08_JAN09_DIFF.md`.
+- [ ] Line-numbered function catalog for `main.*` / `node.*`.
