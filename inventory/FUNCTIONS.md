@@ -67,4 +67,4 @@ read from the extracted, hash-verified source. Evidence prefix: **NOV08-SOURCE**
 - `ConnectInputs`/`DisconnectInputs` operate over an in-memory
   `map<uint256, CTransaction>` — the November tree has **no `CTxDB` / `CTxIndex`**
   disk-index layer (that arrives with `db.*` and the two new `main.h` classes in
-  January; see `../common/conformance/NOV08_JAN09_DIFF.md`).
+  January; see `common/conformance/NOV08_JAN09_DIFF.md`).

@@ -54,10 +54,10 @@ monetary constitution is readable and differs from January:
 | coinbase value rule | must **equal** subsidy+fees (`!=` rejects) | `main.cpp:739` |
 
 The 1e8 base unit (the "satoshi"), 50-coin subsidy, 210k-block halving, and 10-min
-target are all January changes — see `../common/conformance/NOV08_JAN09_DIFF.md`.
+target are all January changes — see `common/conformance/NOV08_JAN09_DIFF.md`.
 
 ## Relationship to January
 
 The nov08 → jan09 structural diff (file renames, class additions, and the
 externalised Script module) is recorded in the lab umbrella:
-`../common/conformance/NOV08_JAN09_DIFF.md`.
+`common/conformance/NOV08_JAN09_DIFF.md`.

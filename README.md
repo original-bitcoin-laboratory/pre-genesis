@@ -22,7 +22,7 @@ values: MD5/SHA-1 per the Satoshi Nakamoto Institute catalogue.
 ## What the November source shows
 
 Read directly from the hash‑verified pre‑release (`inventory/`, and the cross‑edition
-[`../common/conformance/NOV08_JAN09_DIFF.md`](../common/conformance/NOV08_JAN09_DIFF.md)):
+[`common/conformance/NOV08_JAN09_DIFF.md`](https://github.com/original-bitcoin-laboratory/common/blob/main/conformance/NOV08_JAN09_DIFF.md)):
 
 - **A different monetary constitution.** `COIN` = 1e6, `CENT` = 1e4 — **no "satoshi"**
   (the 1e8 unit is *genesis*‑born); a **100‑coin** subsidy halving every 100k blocks, a
@@ -34,8 +34,8 @@ Read directly from the hash‑verified pre‑release (`inventory/`, and the cros
   db, and the marketplace all first appear in January.
 
 November's constitution is **executed** as a live counterfactual network, **NOV08‑X**
-([`../genesis/derivatives/nov08x/`](../genesis/derivatives/nov08x/)), under strict per‑line
-provenance ([`../common/nov08x/DESIGN_LEDGER.md`](../common/nov08x/DESIGN_LEDGER.md)). This
+([`genesis/derivatives/nov08x/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/nov08x/)), under strict per‑line
+provenance ([`common/nov08x/DESIGN_LEDGER.md`](https://github.com/original-bitcoin-laboratory/common/blob/main/nov08x/DESIGN_LEDGER.md)). This
 is **not** recovered runnable Bitcoin — the surviving package cannot build standalone;
 NOV08‑X is a provenance‑controlled *completion*, never presented as recovered code.
 
@@ -56,7 +56,7 @@ derivatives/  all modified / instrumented / modernized code
 - `artifacts/` holds acquired historical bytes and is never edited.
 - `derivatives/` holds every patch, port, harness, UI, or experiment; a
   derivative is never described as canonical original code.
-- The program-wide roadmap lives in the lab umbrella (`../common/ROADMAP.md`);
+- The program-wide roadmap lives in the lab umbrella (`common/ROADMAP.md`);
   see `docs/PROJECT_CHARTER.md` for method and evidence rules.
 
 ## License
