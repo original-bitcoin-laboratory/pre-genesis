@@ -39,6 +39,11 @@ provenance ([`common/nov08x/DESIGN_LEDGER.md`](https://github.com/original-bitco
 is **not** recovered runnable Bitcoin — the surviving package cannot build standalone;
 NOV08‑X is a provenance‑controlled *completion*, never presented as recovered code.
 
+**It now runs as a live, joinable network.** A public NOV08‑X anchor is online — clone the `genesis`
+repo and `python -m netnode --chain nov08x --datadir ./data --connect seed.bitcoin-lab.org:18008` to
+sync and independently re‑validate its leading‑zero‑bits chain yourself. Experimental, **not money**;
+full invitation in [`genesis/docs/ANNOUNCE.md`](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md).
+
 ## Layout
 
 ```text
