@@ -41,7 +41,7 @@ NOV08‑X is a provenance‑controlled *completion*, never presented as recovere
 
 **It now runs as a live, joinable network.** A public NOV08‑X anchor is online — clone the `genesis`
 repo and `python -m netnode --chain nov08x --datadir ./data --connect seed.bitcoin-lab.org:18008` to
-sync and independently re‑validate its leading‑zero‑bits chain yourself. Experimental, **not money**;
+sync and independently re‑validate its leading‑zero‑bits chain yourself. Experimental, **not money** — no value is assigned;
 full invitation in [`genesis/docs/ANNOUNCE.md`](https://github.com/original-bitcoin-laboratory/genesis/blob/main/docs/ANNOUNCE.md).
 
 ## Layout
