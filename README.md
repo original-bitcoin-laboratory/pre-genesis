@@ -66,5 +66,5 @@ derivatives/  all modified / instrumented / modernized code
 
 ## License
 
-MIT © 2026 Parth Mauria Saxena (new laboratory material only). Original Bitcoin
-source retains Satoshi Nakamoto's original notices. See `LICENSE`.
+MIT © 2026 parthod0x (new laboratory material only). Original Bitcoin
+source retains Satoshi Nakamoto's original notices. See `LICENSE` for the named copyright holder.
