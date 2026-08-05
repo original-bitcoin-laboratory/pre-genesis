@@ -68,3 +68,8 @@ derivatives/  all modified / instrumented / modernized code
 
 MIT © 2026 parthod0x (new laboratory material only). Original Bitcoin
 source retains Satoshi Nakamoto's original notices. See `LICENSE` for the named copyright holder.
+
+---
+
+**Rights, sourcing and corrections:** see [RIGHTS.md](RIGHTS.md) — what this project uses,
+where it comes from, how named people are treated, and how to ask for a correction.
