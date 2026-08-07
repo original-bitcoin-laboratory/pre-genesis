@@ -21,7 +21,7 @@ The November 2008 archive is treated as an early source witness, not presumed to
 
 ### OBL-JAN09 — Genesis
 
-The January 2009 v0.1.0 archive is treated as the first publicly released operational Bitcoin implementation. It is the principal historical execution oracle for the project.
+The January 2009 archive (distributed as `bitcoin-0.1.0.rar`; its contents are **v0.1.1**, built 10 January — see [`common/VERSION_LABEL.md`](https://github.com/original-bitcoin-laboratory/common/blob/main/VERSION_LABEL.md)) is treated as the earliest surviving operational Bitcoin implementation. It is the principal historical execution oracle for the project. The 8 January v0.1.0 release itself does not survive; it differs only in `irc.cpp` and `serialize.h`, neither of which carries a consensus rule.
 
 ## Evidence ladder
 
