@@ -1,0 +1,46 @@
+# This repository is hash-anchored, so the one thing git must never do is change a byte on the way
+# in or out of a checkout. Line-ending translation does exactly that, silently and per-platform:
+# with core.autocrlf=true a Windows clone rewrites every text file, which changes its sha256 and
+# puts a stray \r on the end of every filename inside a checksum manifest. The symptom is
+# bewildering rather than obvious -- `sha256sum -c` reports
+#
+#     sha256sum: 'some/file.py'$'\r': No such file or directory
+#
+# for a file plainly sitting right there.
+#
+# Hence: translate nothing. The repo's bytes are the repo's bytes.
+* -text
+
+# NOTE, deliberately different from the `genesis` repo. That one additionally pins
+#
+#     *.py text eol=lf
+#
+# because its Python blobs are stored LF. The blobs in THIS repository are stored CRLF, so adding
+# that line here would re-normalise every Python file on the next checkout -- rewriting bytes,
+# changing every sha256, and invalidating any published checksum or signed release that covers
+# them. Do not copy that line in without first converting the blobs deliberately, in its own
+# commit, and re-issuing whatever checksums depend on them.
+
+# Belt and braces for formats that must never be touched even if the default above is relaxed.
+*.exe    binary
+*.dll    binary
+*.pdf    binary
+*.png    binary
+*.jpg    binary
+*.gz     binary
+*.zip    binary
+*.rar    binary
+*.dat    binary
+*.asc    binary
+*.sig    binary
+*.parquet binary
+
+# Shell scripts are pinned to LF. Measured 7 Aug 2026: the committed blobs for scripts/*.sh
+# contain CR bytes, while local clones here run with core.autocrlf=true, which masks that in the
+# working tree. A clone made with the usual Linux/macOS default (autocrlf=false) would therefore
+# receive the CR bytes verbatim, and a CRLF shell script does not merely hash differently -- it
+# fails to run, with bash reporting only "unexpected end of file". Pinning eol=lf removes the
+# ambiguity so the scripts are the same bytes, and runnable, on every platform.
+# No published manifest in this repository covers these files, so pinning them changes nothing
+# that was ever signed or checksummed.
+*.sh text eol=lf

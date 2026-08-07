@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Original Bitcoin Laboratory — Pre-Genesis (OBL-NOV08)"
+abstract: >-
+  Self-contained reconstruction of the 15 November 2008 Bitcoin pre-release source
+  witness — the earliest surviving Bitcoin code, predating the launched network. One of
+  the two editions of the Original Bitcoin Laboratory (the other is v0.1.0 of January
+  2009). The archive is a pre-release source witness whose completeness and standalone
+  buildability are treated as unproven and are what this work sets out to establish.
+  A research and teaching instrument, not money. Experimental; findings are provisional.
+type: software
+authors:
+  - family-names: Saxena
+    given-names: Parth Mauria
+    email: parthms.id@gmail.com
+license: MIT
+repository-code: "https://github.com/original-bitcoin-laboratory/pre-genesis"
+url: "https://bitcoin-lab.org"
+keywords:
+  - Bitcoin
+  - software archaeology
+  - source reconstruction
+  - reproducibility
+  - consensus protocols

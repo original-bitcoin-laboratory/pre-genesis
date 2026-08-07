@@ -14,6 +14,19 @@ from, and how to raise anything with it.
 - It makes **no claim about the identity of Satoshi Nakamoto**. Where it addresses identity at all,
   it does so to record what the evidence can and cannot establish — usually that it cannot.
 
+## Status of the work
+
+- This is **experimental research, published as it develops**, and it is provided **as is, without
+  warranties or guarantees of any kind** — as to accuracy, completeness, fitness for any purpose, or
+  continued availability.
+- **Findings here are provisional.** Several have already been revised and more will be. A result
+  states what the evidence supported when it was checked; it is not a settled fact. Re-derive it from
+  the sources and the tools provided rather than relying on it.
+- **The code is a research instrument, not production software.** It is written to be read and
+  re-run, not deployed. It handles no money and holds no keys.
+- The licence disclaims warranty for the **code**. This section does the same for the **findings**,
+  which no software licence covers.
+
 ## Sourcing
 
 Everything published here is derived from **material already public**:
