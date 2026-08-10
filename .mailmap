@@ -1,0 +1,18 @@
+# Canonical identity for this project.
+#
+# Every commit in this repository is by the same author. Early commits carry addresses that
+# were not the project's working address: a personal account, and GitHub's per-account noreply.
+# This file declares the canonical one, which is the address on the OpenPGP release-signing key
+# B128 526A F85A E4A8 F22B  949F B014 5F74 B78C F1DA.
+#
+# Git honours this for `git shortlog`, `git log --use-mailmap`, and most tooling built on them.
+#
+# HISTORY IS NOT REWRITTEN, deliberately. Rewriting would change every commit hash, invalidate
+# the signed tags, break the Radicle refs, and orphan what Software Heritage has already archived
+# -- and it would not even achieve the aim, because GitHub retains unreferenced objects and a
+# force-push does not unpublish what was already fetched, forked, or indexed. Declaring the
+# canonical identity is both the honest fix and the effective one.
+
+parthod0x <parthms.id@gmail.com> <psyq1942@gmail.com>
+parthod0x <parthms.id@gmail.com> <parthod0x@users.noreply.github.com>
+parthod0x <parthms.id@gmail.com> <parthms.id@gmail.com>
