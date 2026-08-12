@@ -19,3 +19,11 @@
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Credentials. Added 12 Aug 2026, before any token existed rather than after one leaked:
+# a bearer token is billable and identifies an account, and "it got committed" is the
+# failure mode that only becomes live the moment you first hold one.
+.env
+.env.*
+*.token
+BLOCKSTREAM_TOKEN*
