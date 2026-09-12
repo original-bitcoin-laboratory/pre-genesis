@@ -4,7 +4,7 @@
 
 - [x] Self-contained edition repository created.
 - [x] Charter, evidence policy, profile, and checksum registry in place.
-- [x] Whitepaper captured under `provenance/`.
+- [x] Whitepaper identified by hash under `provenance/WHITEPAPER.md` (copy removed 8 Aug 2026).
 - [x] Canonical nov08 archives fetched (Nakamoto Institute CDN) and verified.
 - [x] `.tgz` source tree extracted read-only + per-file manifest generated.
 - [x] `.rar` tree extracted (Windows bsdtar) and diffed against the `.tgz` tree.
@@ -16,14 +16,14 @@
 | `bitcoin-nov08.rar` | OK | OK |
 | `bitcoin-nov08.tgz` | OK | OK |
 
-Whitepaper matches `manifests/PROVENANCE_SHA256SUMS`. Verified bytes live under
+`provenance/*.md` match `manifests/PROVENANCE_SHA256SUMS`. Verified bytes live under
 `artifacts/nov08/` (gitignored, never edited). Per-file hashes of the extracted
 tree are recorded in `manifests/SOURCE_MANIFEST.json` (the source bytes themselves
 stay local under `extracted/`).
 
 The `.rar` and `.tgz` source trees are **byte-identical**: all 5 files match by
-SHA-256 — independent confirmation that both canonical archives carry the same
-source. (`bitcoin-nov08.rar` is a non-solid RAR, readable directly by the Windows
+SHA-256. This rules out a transcription error between the two containers only — the
+`.tgz` is SNI's re-compression of the same package, not a second witness. (`bitcoin-nov08.rar` is a non-solid RAR, readable directly by the Windows
 built-in `bsdtar`/libarchive.)
 
 ## First finding — source inventory
@@ -41,8 +41,8 @@ readme.txt    451
 No `script.*`, `key.*`, `db.*`, `net.*`, `ui.*`, or `market.*`. Networking lives in
 `node.*` (renamed/expanded to `net.*` by January). This is the earliest surviving
 architectural witness — core validation + networking only — and on its face is
-**not** a complete standalone release. (Contrast: the JAN09 edition ships 21 source
-files plus a runnable `bitcoin.exe`.)
+**not** a complete standalone release. (Contrast: the JAN09 edition ships 26 source
+units plus a runnable `bitcoin.exe`.)
 
 ## Release 1 — source inventory (started)
 

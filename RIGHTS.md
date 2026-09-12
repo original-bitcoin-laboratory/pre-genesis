@@ -50,12 +50,10 @@ published openly under the MIT licence in 2008–2009. Build artifacts produced 
 verification only; they are run in isolated environments and are **not** intended for use on any live
 network. No authorship is claimed over the original source.
 
-## The whitepaper PDFs served here
+## The whitepaper
 
-Copies of the Bitcoin whitepaper are served so that you can hash a file yourself and compare it.
-They are the same bytes distributed by `bitcoin.org` since 2009. No authorship is claimed over them.
-If you hold rights in that document and would prefer they were linked rather than served, say so and
-they will be removed.
+No copy of the Bitcoin whitepaper is served here. It is identified by hash in the provenance notes,
+and can be obtained from the public sources named there. No authorship is claimed over it.
 
 ## Named people
 
@@ -71,14 +69,14 @@ court, or a document they themselves published. This project:
   with its limits stated alongside.
 
 **If you are named here and want something corrected or removed, ask.** You do not need to explain
-why, and you will not be argued with. Corrections are made promptly and recorded openly.
+why. Requests are considered promptly and the outcome is recorded openly.
 
 ## Errors
 
 This project publishes its mistakes on purpose. Several published claims here have been wrong and
 were corrected in place, with the error and its cause described rather than quietly edited away —
-because a result is worth what its checking is worth. If you find an error, report it and it will be
-fixed and credited.
+because a result is worth what its checking is worth. If you find an error, report it; it will be
+reviewed and, where confirmed, corrected and credited.
 
 ## Licence
 
