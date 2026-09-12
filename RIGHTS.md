@@ -38,6 +38,11 @@ from, and how to raise anything with it.
   re-run, not deployed. It handles no money and holds no keys.
 - The licence disclaims warranty for the **code**. This section does the same for the **findings**,
   which no software licence covers.
+- **The project changes; the record does not.** Its scope, methods, tools, documents, sites, nodes and
+  repositories may be extended, restructured, replaced or retired by the author at any time, with no
+  notice owed and no duty to anyone to continue any of them. What has been published stays as
+  published: a signed, sealed or anchored artifact is never edited, and a claim found wrong is
+  superseded by a dated correction beside it, not rewritten.
 
 ## Sourcing
 
