@@ -1,5 +1,10 @@
 # Original Bitcoin Laboratory — Pre-Genesis (`OBL-NOV08`)
 
+> **Scope.** Experimental laboratory research, in progress and expected to change. It reports what
+> published, re-runnable methods find in public material — statistical and machine-verifiable
+> findings, graded by their evidence — and draws no conclusion beyond them. Not money, not advice,
+> no warranty. Details in [RIGHTS.md](RIGHTS.md).
+
 Self-contained reconstruction of the **November 15, 2008** Bitcoin pre-release
 source witness — the earliest surviving Bitcoin code, predating the launched
 network. One of the two editions of the Original Bitcoin Laboratory (the other is

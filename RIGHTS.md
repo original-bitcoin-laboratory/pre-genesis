@@ -13,10 +13,20 @@ from, and how to raise anything with it.
   solicitation of any kind. It handles no money and asks for none.
 - It makes **no claim about the identity of Satoshi Nakamoto**. Where it addresses identity at all,
   it does so to record what the evidence can and cannot establish — usually that it cannot.
+- It **draws no conclusions of its own**. It publishes what its stated, re-runnable methods find in
+  public material — counts, hashes, signatures, timestamps, statistical patterns — graded by the
+  evidence behind each figure. Where a figure invites an inference, the inference is labelled as
+  such and its limits are stated beside it. The project has no knowledge, sources or insight beyond
+  the material it names, and offers none.
+- Its findings are **statistical or machine-verifiable, never authoritative**: anyone can re-run
+  them, and a re-run that disagrees outranks anything written here.
+- It is **neutral**. It endorses no chain, project, company or person, takes no side in any dispute,
+  and cites public records rather than characterising anyone.
 
 ## Status of the work
 
-- This is **experimental research, published as it develops**, and it is provided **as is, without
+- This is **experimental laboratory research, published as it develops** and expected to change as
+  methods and sources improve. It is provided **as is, without
   warranties or guarantees of any kind** — as to accuracy, completeness, fitness for any purpose, or
   continued availability.
 - **Findings here are provisional.** Several have already been revised and more will be. A result
