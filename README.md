@@ -10,9 +10,10 @@ source witness — the earliest surviving Bitcoin code, predating the launched
 network. One of the two editions of the Original Bitcoin Laboratory (the other is
 the sibling `genesis` repo, Bitcoin v0.1.0).
 
-> **Status caveat.** The November archive is a *pre-release source witness*. Its
-> completeness and standalone buildability are **unproven** — establishing them is
-> precisely this repo's job. See `profiles/nov08/PROFILE.md`.
+> **Status.** The November archive is a *pre-release source witness*: a partial snapshot of the
+> ledger and networking layer that does not build standalone. Both findings are recorded in
+> `inventory/SOURCE_INVENTORY.md` and `docs/BUILD_RECONSTRUCTION.md`; the profile rule is in
+> `profiles/nov08/PROFILE.md`.
 
 ## Quick start
 
@@ -58,7 +59,7 @@ manifests/    expected checksums + generated manifests
 profiles/     frozen OBL-NOV08 profile
 scripts/      acquisition / verification / inventory tooling
 artifacts/    acquired archive bytes (gitignored)
-derivatives/  all modified / instrumented / modernized code
+derivatives/  reserved; the NOV08-X derivative lives in the genesis repository
 ```
 
 ## Boundaries

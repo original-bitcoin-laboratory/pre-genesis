@@ -7,7 +7,6 @@
 set -u
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SRC="$HERE/../extracted"
-[ -x /c/msys64/mingw64/bin/g++.exe ] && export PATH="/c/msys64/mingw64/bin:$PATH"
 GXX="${GXX:-g++}"
 
 echo "== nov08 build-reconstruction =="

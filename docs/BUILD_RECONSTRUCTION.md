@@ -46,7 +46,7 @@ Because the preview cannot stand alone, any executable reconstruction must be **
 the missing units come from the January 2009 codebase and are marked as such. That is exactly
 what the lab's **NOV08-X** derivative does — it executes November's constitution (the monetary
 rules and the `main.*`/`node.*` structure) on the reconstructed substrate, every line
-provenance-classed **N-ORIG / N-IFACE / J-DONOR / NEW-EXP** (see `derivatives/nov08x/` and its
+provenance-classed **N-ORIG / N-IFACE / J-DONOR / NEW-EXP** (see [`genesis/derivatives/nov08x/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/nov08x/) and its
 design ledger). NOV08-X is the reconstruction vehicle; a standalone period build of the
 snapshot is not possible, and that impossibility is a *finding about the artifact*, not a
 limitation of the method.

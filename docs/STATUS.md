@@ -44,7 +44,7 @@ architectural witness — core validation + networking only — and on its face 
 **not** a complete standalone release. (Contrast: the JAN09 edition ships 26 source
 units plus a runnable `bitcoin.exe`.)
 
-## Release 1 — source inventory (started)
+## Release 1 — source inventory (complete)
 
 - [x] Full-tree file/class map → `inventory/SOURCE_INVENTORY.md`.
 - [x] Verified the pre-release is a **partial snapshot**: the Script / key / db /
@@ -55,3 +55,8 @@ units plus a runnable `bitcoin.exe`.)
   100k-block halving, 15-min target) — in `inventory/SOURCE_INVENTORY.md`.
 - [x] Line-numbered function catalog → `inventory/FUNCTIONS.md` (`main.cpp` /
   `node.cpp`; surfaced the "timechain" term, `CountMoney`, and the absent `CTxDB`).
+
+## Release 2 — build reconstruction (complete)
+
+- [x] Standalone build attempted and shown impossible (`headers.h` absent; Script, key and bignum
+  units absent) → `docs/BUILD_RECONSTRUCTION.md`, reproducible with `scripts/build-reconstruction.sh`.

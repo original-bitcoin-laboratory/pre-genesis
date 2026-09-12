@@ -15,11 +15,11 @@
 #
 #     *.py text eol=lf
 #
-# because its Python blobs are stored LF. The blobs in THIS repository are stored CRLF, so adding
-# that line here would re-normalise every Python file on the next checkout -- rewriting bytes,
-# changing every sha256, and invalidating any published checksum or signed release that covers
-# them. Do not copy that line in without first converting the blobs deliberately, in its own
-# commit, and re-issuing whatever checksums depend on them.
+# because its Python blobs are stored LF. The blobs in this repository are stored as committed
+# (`git ls-files --eol` lists each one); adding that line would re-normalise any file whose stored
+# line endings differ, rewriting bytes and changing its sha256 and any published checksum or
+# signed release that covers it. Do not add it without converting the blobs deliberately, in
+# their own commit, and re-issuing whatever checksums depend on them.
 
 # Belt and braces for formats that must never be touched even if the default above is relaxed.
 *.exe    binary
