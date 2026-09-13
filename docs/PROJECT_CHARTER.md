@@ -48,9 +48,9 @@ No feature is described as native consensus functionality merely because its nam
 
 ## Integrity boundary
 
-- `artifacts/` contains acquired historical bytes and is never edited.
+- `artifacts/` contains acquired historical bytes and is not edited.
 - `derivatives/` contains every patch, port, harness, UI, test node, or experimental chain.
-- A derivative must never be described as canonical original code.
+- A derivative is not described as canonical original code.
 
 ## Initial success criterion
 

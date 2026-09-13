@@ -21,4 +21,4 @@ The January 8, 2009 announcement identifies `bitcoin-0.1.0.rar`, says the open-s
 
 ## Provenance caution
 
-The January archives have a documented recovery path through Hal Finney in 2012. The November archive is a later-publicly-preserved pre-release source witness. Neither establishes that no private drafts or additional files ever existed.
+The January archives have a documented recovery path through Hal Finney in 2012. The November archive is a later-publicly-preserved pre-release source witness. Neither establishes that no private drafts or additional files existed.

@@ -22,7 +22,7 @@ the sibling `genesis` repo, Bitcoin v0.1.0).
 python scripts/verify-artifacts.py    # hash-check against manifests/EXPECTED_CHECKSUMS.json
 ```
 
-Archives land in `artifacts/nov08/` (gitignored) and are never edited. Verified
+Archives land in `artifacts/nov08/` (gitignored) and are not edited. Verified
 values: MD5/SHA-1 per the Satoshi Nakamoto Institute catalogue.
 
 ## What the November source shows
@@ -43,7 +43,7 @@ November's constitution is **executed** as a live counterfactual network, **NOV0
 ([`genesis/derivatives/nov08x/`](https://github.com/original-bitcoin-laboratory/genesis/tree/main/derivatives/nov08x/)), under strict per‑line
 provenance ([`common/nov08x/DESIGN_LEDGER.md`](https://github.com/original-bitcoin-laboratory/common/blob/main/nov08x/DESIGN_LEDGER.md)). This
 is **not** recovered runnable Bitcoin — the surviving package cannot build standalone;
-NOV08‑X is a provenance‑controlled *completion*, never presented as recovered code.
+NOV08‑X is a provenance‑controlled *completion*, not presented as recovered code.
 
 **It now runs as a live, joinable network.** A public NOV08‑X anchor is currently reachable (availability not guaranteed) — clone the `genesis`
 repo and `python -m netnode --chain nov08x --datadir ./data --connect seed.bitcoin-lab.org:18008` to
@@ -64,9 +64,9 @@ derivatives/  reserved; the NOV08-X derivative lives in the genesis repository
 
 ## Boundaries
 
-- `artifacts/` holds acquired historical bytes and is never edited.
+- `artifacts/` holds acquired historical bytes and is not edited.
 - `derivatives/` holds every patch, port, harness, UI, or experiment; a
-  derivative is never described as canonical original code.
+  derivative is not described as canonical original code.
 - The program-wide roadmap lives in the lab umbrella (`common/ROADMAP.md`);
   see `docs/PROJECT_CHARTER.md` for method and evidence rules.
 

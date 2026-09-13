@@ -17,7 +17,7 @@
 | `bitcoin-nov08.tgz` | OK | OK |
 
 `provenance/*.md` match `manifests/PROVENANCE_SHA256SUMS`. Verified bytes live under
-`artifacts/nov08/` (gitignored, never edited). Per-file hashes of the extracted
+`artifacts/nov08/` (gitignored, not edited). Per-file hashes of the extracted
 tree are recorded in `manifests/SOURCE_MANIFEST.json` (the source bytes themselves
 stay local under `extracted/`).
 
@@ -49,7 +49,7 @@ units plus a runnable `bitcoin.exe`.)
 - [x] Full-tree file/class map → `inventory/SOURCE_INVENTORY.md`.
 - [x] Verified the pre-release is a **partial snapshot**: the Script / key / db /
   market / ui modules are absent, and `CScript` / `OP_CHECKSIG` /
-  `OP_CODESEPARATOR` are *used but never defined* in the preserved files.
+  `OP_CODESEPARATOR` are *used but not defined* in the preserved files.
 - [x] NOV08 → JAN09 structural diff → `common/conformance/NOV08_JAN09_DIFF.md`.
 - [x] Monetary & timing constants extracted (`COIN`=1e6, subsidy 100 coins,
   100k-block halving, 15-min target) — in `inventory/SOURCE_INVENTORY.md`.

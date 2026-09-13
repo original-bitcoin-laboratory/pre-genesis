@@ -18,7 +18,7 @@ from, and how to raise anything with it.
   evidence behind each figure. Where a figure invites an inference, the inference is labelled as
   such and its limits are stated beside it. The project has no knowledge, sources or insight beyond
   the material it names, and offers none.
-- Its findings are **statistical or machine-verifiable, never authoritative**: anyone can re-run
+- Its findings are **statistical or machine-verifiable, not authoritative**: anyone can re-run
   them, and a re-run that disagrees outranks anything written here.
 - It is **neutral**. It endorses no chain, project, company or person, takes no side in any dispute,
   and cites public records rather than characterising anyone.
