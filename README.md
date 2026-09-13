@@ -18,7 +18,7 @@ the sibling `genesis` repo, Bitcoin v0.1.0).
 ## Quick start
 
 ```bash
-./scripts/fetch-artifacts.sh          # pull the 2 canonical nov08 archives (Nakamoto Institute CDN)
+./scripts/fetch-artifacts.sh          # pull the nov08 archive and its SNI-compressed companion (Nakamoto Institute CDN)
 python scripts/verify-artifacts.py    # hash-check against manifests/EXPECTED_CHECKSUMS.json
 ```
 
@@ -65,7 +65,7 @@ derivatives/  reserved; the NOV08-X derivative lives in the genesis repository
 ## Boundaries
 
 - `artifacts/` holds acquired historical bytes and is not edited.
-- `derivatives/` holds every patch, port, harness, UI, or experiment; a
+- `derivatives/` is reserved here (the NOV08-X derivative lives in the genesis repository); a
   derivative is not described as canonical original code.
 - The program-wide roadmap lives in the lab umbrella (`common/ROADMAP.md`);
   see `docs/PROJECT_CHARTER.md` for method and evidence rules.

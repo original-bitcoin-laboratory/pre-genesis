@@ -63,7 +63,7 @@ copy rather than serving its own.
 ## Reconstructed historical software
 
 This repository reconstructs and executes Bitcoin's earliest released source code, which its author
-published openly under the MIT licence in 2008–2009. Build artifacts produced here are for study and
+released under the MIT licence (the January 2009 client publicly; the November 2008 pre-release circulated privately and was preserved later). Build artifacts produced here are for study and
 verification only; they are run in isolated environments and are **not** intended for use on any live
 network. No authorship is claimed over the original source.
 
@@ -92,7 +92,7 @@ why. Requests are considered promptly and the outcome is recorded openly.
 
 This project publishes its mistakes on purpose. Several published claims here have been wrong and
 were corrected in place, with the error and its cause described rather than quietly edited away —
-because a result is worth what its checking is worth. If you find an error, report it; it will be
+because a result is worth what its checking is worth. If you find an error, report it; it is
 reviewed and, where confirmed, corrected and credited.
 
 ## Licence
