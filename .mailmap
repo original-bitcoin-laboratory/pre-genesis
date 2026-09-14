@@ -1,36 +1,4 @@
-# Canonical identity for this project.
-#
-# Every commit here is by the same author. The project's one address is
-#
-#     parthod0x <parthms.id@gmail.com>
-#
-# which is the address on the OpenPGP release-signing key
-# B128 526A F85A E4A8 F22B  949F B014 5F74 B78C F1DA.
-#
-# Some early commits were made under other addresses -- a personal account, and GitHub's
-# per-account noreply. This file declares all of them equal to the canonical one, so that
-# `git shortlog`, `git log --use-mailmap`, `git blame` and the tooling built on them report
-# ONE contributor rather than several. That is the point: the project has one identity.
-#
-# HISTORY IS NOT REWRITTEN, deliberately, and this is the considered position rather than
-# laziness. A rewrite would:
-#
-#   - invalidate 12 PGP-signed tags across this project, which currently verify;
-#   - move the target of 16 published releases;
-#   - break every commit SHA quoted in the findings, PRESERVATION.md and the papers;
-#   - and STILL NOT REMOVE ANYTHING, because Software Heritage has already archived the old
-#     commit graph, Radicle seeds have replicated it, GitHub retains unreferenced objects and
-#     serves them by SHA, and every clone and fork keeps its own copy.
-#
-# So a rewrite pays the full cost of breaking the signatures and buys no removal at all.
-# Declaring the canonical identity is the honest fix and the only effective one.
-#
-# Listing a superseded address here does publish that string in a tracked file. It is published
-# already, in the metadata of the commits themselves, and cannot be unpublished. The choice is
-# therefore not "visible or not" but "one contributor or several" -- and leaving the mapping out
-# makes every contributor list show a second person, which draws far more attention to a retired
-# address than one line in the file that retires it.
-
+# One author. Earlier addresses map to the canonical one; history is not rewritten.
 parthod0x <parthms.id@gmail.com> <parthms.id@gmail.com>
 parthod0x <parthms.id@gmail.com> <parthod0x@users.noreply.github.com>
 parthod0x <parthms.id@gmail.com> <psyq1942@gmail.com>
