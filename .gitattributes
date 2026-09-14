@@ -44,3 +44,4 @@
 # No published manifest in this repository covers these files, so pinning them changes nothing
 # that was ever signed or checksummed.
 *.sh text eol=lf
+.mailmap export-ignore

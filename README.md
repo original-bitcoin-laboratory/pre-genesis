@@ -72,10 +72,13 @@ derivatives/  reserved; the NOV08-X derivative lives in the genesis repository
 
 ## License
 
-MIT © 2026 parthod0x (new laboratory material only). Original Bitcoin
-source retains Satoshi Nakamoto's original notices. See `LICENSE` for the named copyright holder.
+MIT © 2026 parthod0x — the licence applies to new laboratory material only; historical artifacts
+retain their original notices and licences, and the original Bitcoin source retains Satoshi Nakamoto's.
+See `LICENSE` for the named copyright holder.
 
 ---
 
 **Rights, sourcing and corrections:** see [RIGHTS.md](RIGHTS.md) — what this project uses,
 where it comes from, how named people are treated, and how to ask for a correction.
+
+**Tags.** The tags in this repository are annotated but not signed; they are listed and attested in the laboratory's signed tag attestation, <https://bitcoin-lab.org/TAG-ATTESTATION.txt>.

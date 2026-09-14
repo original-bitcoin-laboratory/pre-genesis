@@ -39,8 +39,7 @@ from, and how to raise anything with it.
 - The licence disclaims warranty for the **code**. This section does the same for the **findings**,
   which no software licence covers.
 - **The project changes; the record does not.** Its scope, methods, tools, documents, sites, nodes and
-  repositories may be extended, restructured, replaced or retired by the author at any time, with no
-  notice owed and no duty to anyone to continue any of them. What has been published stays as
+  repositories may be extended, restructured, replaced or retired by the author at any time. What has been published stays as
   published: a signed, sealed or anchored artifact is not edited, and a claim found wrong is
   superseded by a dated correction beside it.
 
@@ -53,12 +52,11 @@ Everything published here is derived from **material already public**:
 | the Bitcoin block chain | transaction and block data | read from public nodes and explorers |
 | public mailing-list archives | messages posted to open lists in 2008–2009 | quoted and cited to the archive that holds them |
 | the Internet Archive | captures of pages and files | cited by capture timestamp and URL |
-| published court documents | judgments and filings made public by the parties or the court | **quoted and cited, not re-hosted** |
+| published judgments | judgments published by the court | **cited by paragraph, not re-hosted** |
 | public code repositories | source releases and commit history | cited by URL and commit |
 
-**Court material is linked, not mirrored.** Where this project quotes a judgment or an expert
-report, it quotes a document its publisher chose to make public, and points you at that publisher's
-copy rather than serving its own.
+**Court material is linked, not mirrored.** Where this project quotes a judgment, it cites the court's published copy by paragraph, and points
+you at that copy rather than serving its own.
 
 ## Reconstructed historical software
 
@@ -75,8 +73,7 @@ and can be obtained from the public sources named there. No authorship is claime
 ## Named people
 
 Individuals are named here **only where they are already named in the public record in connection
-with the same facts** — a message they posted to an open mailing list, evidence they gave in open
-court, or a document they themselves published. This project:
+with the same facts** — a message they posted to an open mailing list, a finding a published judgment records about them, or a document they themselves published. This project:
 
 - **does not publish private contact details, addresses, or personal information** that is not
   necessary to the point being made, and redacts them where they would otherwise appear;

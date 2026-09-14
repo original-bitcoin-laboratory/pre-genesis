@@ -14,6 +14,8 @@ authors:
     given-names: Parth Mauria
     email: parthms.id@gmail.com
 license: MIT
+version: v0.1.0-source-inventory
+date-released: 2026-07-26
 repository-code: "https://github.com/original-bitcoin-laboratory/pre-genesis"
 url: "https://bitcoin-lab.org"
 keywords:
