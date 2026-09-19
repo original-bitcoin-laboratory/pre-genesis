@@ -5,7 +5,7 @@
 > findings, graded by their evidence — and draws no conclusion beyond them. Not money, not advice,
 > no warranty. Details in [RIGHTS.md](RIGHTS.md).
 
-Findings by ID: [`FINDINGS-REGISTER.md`](https://github.com/original-bitcoin-laboratory/genesis/blob/main/FINDINGS-REGISTER.md).
+New here? [`START_HERE.md`](https://github.com/original-bitcoin-laboratory/genesis/blob/main/START_HERE.md) in the `genesis` repository is one screen. Findings by ID: [`FINDINGS-REGISTER.md`](https://github.com/original-bitcoin-laboratory/genesis/blob/main/FINDINGS-REGISTER.md).
 
 Self-contained reconstruction of the **November 15, 2008** Bitcoin pre-release
 source witness — the earliest surviving Bitcoin code, predating the launched
