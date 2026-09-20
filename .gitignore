@@ -1,6 +1,8 @@
-# Canonical archive bytes are acquired and verified locally, not committed.
-/artifacts/**/*.rar
-/artifacts/**/*.tgz
+# The two canonical November 2008 archives are committed since 20 September 2026 (artifacts/nov08/, 65 KB, the
+# five-file pre-release its author sent, MIT-licensed by their author) so the base every NOV08-SOURCE claim rests on
+# is reachable from this repository, as the January archives are from genesis/: outside reviews found half of the
+# laboratory's stated scope obtainable only from a third party's host. manifests/EXPECTED_CHECKSUMS.json carries
+# SNI's md5/sha1 and this laboratory's sha256 over the committed bytes. Other archive forms stay out.
 /artifacts/**/*.tar.gz
 /artifacts/**/*.zip
 /artifacts/**/*.part

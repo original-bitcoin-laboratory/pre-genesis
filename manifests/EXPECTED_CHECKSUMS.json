@@ -8,9 +8,11 @@
       "url": "https://cdn.nakamotoinstitute.org/code/bitcoin-nov08.rar",
       "expected": {
         "md5": "1de1b45c425c1cebb2b3280baffe7f25",
-        "sha1": "43808c09e6ea1432111027133712d9d18d4a8537"
+        "sha1": "43808c09e6ea1432111027133712d9d18d4a8537",
+        "sha256": "f0327ebbea17f7d6e14be5f5534c6ff16c7648f588cbb096fc8fdfcb7e071abf"
       },
-      "authority": "Satoshi Nakamoto Institute; values stated as calculated by SNI"
+      "authority": "Satoshi Nakamoto Institute; values stated as calculated by SNI",
+      "sha256_note": "computed by this laboratory over the committed bytes on 2026-09-20; SNI publishes md5 and sha1 only"
     },
     {
       "profile": "OBL-NOV08",
@@ -18,9 +20,11 @@
       "url": "https://cdn.nakamotoinstitute.org/code/bitcoin-nov08.tgz",
       "expected": {
         "md5": "232aaa88ca9874583adcfdbf226c2be7",
-        "sha1": "bfb12761d38513239aabb777532be4c056c172a6"
+        "sha1": "bfb12761d38513239aabb777532be4c056c172a6",
+        "sha256": "ababfeb72cf82ede27fd86a0eb330f3738afd7c5c9595e44a43570f32fcba5d7"
       },
-      "authority": "Satoshi Nakamoto Institute; SNI-compressed companion"
+      "authority": "Satoshi Nakamoto Institute; SNI-compressed companion",
+      "sha256_note": "computed by this laboratory over the committed bytes on 2026-09-20; SNI publishes md5 and sha1 only"
     }
   ]
 }
